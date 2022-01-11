@@ -1,6 +1,6 @@
 ## About AzureIacPublic
 
-This repo includes readme files from the private repo [AzureIacPy](https://github.com/shanlodh/azureiacpy) which uses PowerShell and Azure Python sdk's to set up and operate Azure infrastructure.  shows how to run **Azure** using code (**Iac**) with the Python (**Py**) SDK. 
+This repo includes **only** readme files from the private repo [AzureIacPy](https://github.com/shanlodh/azureiacpy) which uses PowerShell and Azure Python sdk's to set up and operate Azure infrastructure.  This readme shows how to set up authentication and authorisation using PowerShell  
 
 Install PowerShell Az module:  
 
@@ -88,9 +88,9 @@ Use PowerShell to:
 ```
    `$secretsjson | ConvertTo-Json | Set-Content ".\secrets\azuresecrets.json"`
    
-Alternate method using `az cli` to generate above credentials is outlined in the [AzurePython readme](https://github.com/shanlodh/azureiacpy/blob/main/AzurePython/readme.md)
+Alternate method using `az cli` to generate above credentials is outlined in the [AzureIacPublicPython readme](https://github.com/shanlodh/azureiacpublic/tree/main/AzureIacPublicPython)
 
-Once this setup is complete we can start using Python as shown in the [AzureIacPublicPython directory](https://github.com/shanlodh/azureiacpy/blob/main/AzurePython) 
+Once this setup is complete we can start using Python as shown in the [AzureIacPublicPython directory](https://github.com/shanlodh/azureiacpublic/tree/main/AzureIacPublicPython) 
    
    
    

@@ -24,5 +24,7 @@ Use the [csv to blob](https://github.com/shanlodh/azureiacpy/blob/main/AzurePyth
 - create DefaultAzureCredential instance
 - create StorageManagementClient instance using the DefaultAzureCredential instance
 
+Please contact the repo author if you wish to have further access to the underlying code 
+
 
 
