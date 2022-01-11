@@ -1,6 +1,6 @@
-## About AzureIacPy
+## About AzureIacPublic
 
-This repo shows how to run **Azure** using code (**Iac**) with the Python (**Py**) SDK. 
+This repo includes readme files from the private repo [AzureIacPy](https://github.com/shanlodh/azureiacpy) which uses PowerShell and Azure Python sdk's to set up and operate Azure infrastructure.  shows how to run **Azure** using code (**Iac**) with the Python (**Py**) SDK. 
 
 Install PowerShell Az module:  
 
@@ -90,7 +90,7 @@ Use PowerShell to:
    
 Alternate method using `az cli` to generate above credentials is outlined in the [AzurePython readme](https://github.com/shanlodh/azureiacpy/blob/main/AzurePython/readme.md)
 
-Once this setup is complete we can start using Python as shown in the [AzurePython directory](https://github.com/shanlodh/azureiacpy/blob/main/AzurePython) 
+Once this setup is complete we can start using Python as shown in the [AzureIacPublicPython directory](https://github.com/shanlodh/azureiacpy/blob/main/AzurePython) 
    
    
    
